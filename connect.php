@@ -12,7 +12,8 @@ catch(mysql_sql_exception){
     echo "could not connect";
 }
 if ($conn){
-    echo "connection";
+    echo "connection" ."<br>";
+    
 }
     else{
         echo "no connection";
