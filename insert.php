@@ -1,8 +1,8 @@
 <?php
 include ("connect.php");
 
-$name = "hi";
-$password = "0123";
+$name = "rikita";
+$password = "123";
 
 $sql = "INSERT INTO users (name,password)
                 VALUES ('$name', '$password')";
