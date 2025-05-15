@@ -1,7 +1,9 @@
 <?php include "db.php"; ?>
 <!DOCTYPE html>
 <html>
-<head><title>Add Contact</title></head>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Add Contact</title></head>
 <body>
 <h2>Add New Contact</h2>
 <form method="POST">
